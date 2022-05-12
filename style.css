@@ -5,6 +5,7 @@ body {
 .flex-container {
     display: flex;
     background-color: lightgray;
+    justify-content: center;
   }
   
   .flex-container > div {
