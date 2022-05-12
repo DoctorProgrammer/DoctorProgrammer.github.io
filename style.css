@@ -10,6 +10,7 @@ footer {
     display: flex;
     background-color: lightgray;
     justify-content: center;
+    flex-direction: column;
 }
   
 .flex-container > div {
@@ -49,12 +50,13 @@ div.border {
 }
 
 h1 {
+    font-size: 300%;
     text-align: center;
     color: blue;
 }
 
 p1 {
-    font-size: large;
+    font-size: 100%;
     font-style: oblique;
 }
 
