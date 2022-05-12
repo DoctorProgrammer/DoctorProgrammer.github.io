@@ -10,28 +10,52 @@ footer {
     display: flex;
     background-color: lightgray;
     justify-content: center;
-  }
+}
   
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
-  div.border {
+.footer-container {
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    justify-content: center;
+}
+
+.footer-container > div{
+    background-color: rgb(56, 56, 56);
+    margin: 2px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
+.margin1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margin1 > div {
+    margin: 20px;
+}
+
+div.border {
     border: 1px solid black;
-  }
+}
 
 h1 {
     text-align: center;
     color: blue;
 }
 
-.p1 {
-    font-size: medium;
-    font-style: inherit;
+p1 {
+    font-size: large;
+    font-style: oblique;
 }
 
 h2 {
