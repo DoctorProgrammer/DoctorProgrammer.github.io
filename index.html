@@ -7,9 +7,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body style="background: #ffffff url(/pictures/background.jpg) repeat fixed left top;">
+    <body class="bg">
         <header>
-            <h1>Titel</h1>
+            <div id="navbar">
+                <a class="active" href="javascript:void(0)">Home</a>
+                <a href="javascript:void(0)">News</a>
+                <a href="javascript:void(0)">Contact</a>
+            </div>
+
+            <h1>🅱🅻🅾🅶🆂🅴🅸🆃🅴 🅷🆃🅼🅻</h1>
         </header>
 
         <main>
@@ -61,17 +67,31 @@
         <footer>
             <div class="footer-container">
                 <div>
-                    <p2>&Uuml;ber mich</p2>
+                    <a href="personal.html" >&Uuml;ber mich</a>
                 </div>
 
                 <div>
-                    <p2 href="bachtelbobin48@gmail.com">Support</p2>
+                    <a href="mailto:bachtelbobin48@gmail.com">Support</a>
                 </div>
 
                 <div>
-                    <p2>Accounts</p2>
+                    <a href="accounts.html">Accounts</a>
                 </div>
             </div>
         </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
     </body>
 </html>
