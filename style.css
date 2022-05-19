@@ -18,14 +18,14 @@ footer {
 }
 
 .flex-container {
-    background-color: rgba(105, 105, 105, 0.467);
+    background-color: rgb(105, 105, 105, 0.467);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
   
 .flex-container > div {
-    background-color: rgba(255, 255, 255, 0.463);
+    background-color: rgb(255, 255, 255, 0.463);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -43,7 +43,6 @@ footer {
     margin: 2px;
     padding: 10px;
     font-size: 20px;
-    text-align: center;
 }
 
 .margin1 {
@@ -111,16 +110,16 @@ h2 {
     font-size: 20px;
 }
 
+a:visited {
+    color: lightgrey;
+}
+
 a:link {
     color: lightgrey;
 }
 
 a:hover {
-    color: red;
-}
-
-a:visited {
-    color: lightgrey;
+    color: lightblue;
 }
 
 a:active {
