@@ -21,6 +21,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    min-width: 900;
 }
   
 .flex-container > div {
@@ -175,8 +176,4 @@ a:active {
 }
 .sticky + .content {
     padding-top: 60px;
-}
-
-minwidth {
-    min-width: 900;
 }
