@@ -176,3 +176,7 @@ a:active {
 .sticky + .content {
     padding-top: 60px;
 }
+
+minwidth {
+    min-width: 900;
+}
