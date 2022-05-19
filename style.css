@@ -21,7 +21,6 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    min-width: 500px;
 }
   
 .flex-container > div {
