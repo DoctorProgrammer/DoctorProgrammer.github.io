@@ -19,7 +19,7 @@ footer {
 .flex-container {
     background-color: rgba(105, 105, 105, 0.467);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
   
@@ -46,9 +46,17 @@ footer {
     color: grey;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
 .margin1 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .margin1 > div {
@@ -64,7 +72,7 @@ h1 {
     text-align: center;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 60px;
+    padding-top: 2%;
 }
 
 p1 {
@@ -76,6 +84,7 @@ p1 {
 h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 .blogorder1 {
