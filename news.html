@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>News der Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bg">
+        <header>
+            <div id="navbar">
+                <a class="active" href="index.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="mailto:bachtelbobin48@gmail.com">Kontakt</a>
+            </div>
+            <h1>🅽🅴🆆🆂 🅳🅴🆁 🆆🅴🅱🆂🅸🆃🅴</h1>
+        </header>
+        <main>
+            <div class="margin1" style="background: white">
+                <h3>Aktuelles über die Webseite</h3>
+                <ul>
+                    <li>Zur Zeit wird die Webansicht für Mobileversionen angepasst</li>
+                    <li>Die ersten Test-Files werden Schritt für Schritt abgearbeitet</li>
+                    <li>Weitere Blogs folgen</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <a href="personal.html">&Uuml;ber mich</a>
+                </div>
+                <div>
+                    <a href="mailto:bachtelbobin48@gmail.com">Support</a>
+                </div>
+                <div>
+                    <a href="accounts.html">Accounts</a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</html>
