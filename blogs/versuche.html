@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Versuchsseite</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body class="bg">
+        <header>
+            <div id="navbar">
+                <a class="active" href="../index.html">Home</a>
+                <a href="../news.html">News</a>
+                <a href="mailto:bachtelbobin48@gmail.com">Kontakt</a>
+            </div>
+            <h1>🆅🅴🆁🆂🆄🅲🅷🆂-</br>🆂🅴🅸🆃🅴</h1>
+        </header>
+
+        <main>
+            <div class="versuche">
+                <div class="versuch" style="height: 700px; width:450px;">
+                    <h2>Vesuch 1 - Animationen</h2>
+                    <p>In diesem Vesuch teste ich verschiedene Arten von Animationen.</p>
+                    
+                    <div id="v1"></div>
+
+                </div>
+                <div class="versuch" style="height: 700px; width: 450px;">
+                    <h2>Vesuch 2 - Animationen</h2>
+                    <p>In diesem Vesuch teste ich verschiedene Arten von Animationen.</p>
+                    
+                    <div id="v2"></div>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <a href="../personal.html" >&Uuml;ber mich</a>
+                </div>
+
+                <div>
+                    <a href="mailto:bachtelbobin48@gmail.com">Support</a>
+                </div>
+
+                <div>
+                    <a href="../accounts.html">Accounts</a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</html>

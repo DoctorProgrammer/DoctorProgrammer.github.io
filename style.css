@@ -159,3 +159,48 @@ a:active {
 .sticky + .content {
     padding-top: 60px;
 }
+
+.versuche {
+    background-color: white;
+    margin: 5%;
+    display: flex;
+    justify-content: row;
+}
+
+.versuche > div > h2 {
+    color: black;
+    margin: 10%;
+    padding-right: 50%;
+}
+
+.versuche > div > p {
+    color: black;
+    border: 1px solid black;
+    margin: 10%;
+    padding-right: 50%;
+}
+
+.versuch {    
+    border: 1px solid black;
+}
+
+#v1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: versuch1;
+    animation-duration: 4s;
+}
+
+@keyframes versuch1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:350px; top:0px;}
+    50%  {background-color:blue; left:350px; top:350px;}
+    75%  {background-color:green; left:0px; top:350px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#v2 {
+    
+}
