@@ -43,6 +43,11 @@ footer {
     justify-content: space-between;
 }
 
+img {
+    min-width: 250px;
+    max-width: 350px;
+}
+
 .footer-container {
     background: #18191f;
     display: flex;
